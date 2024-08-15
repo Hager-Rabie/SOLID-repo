@@ -1,0 +1,8 @@
+explain what code do
+Employee: This class stores basic information about the employee, such as name, age, and position , include function hireEmployee , fireEmployee , printDetails and calculatePay 
+that violate solid principle "Single Responsibility Principle" and "Open/Closed Principle" so we separate each of them into its own class inherite from base class Employee 
+class manager also violate "Single Responsibility Principle" so we also separate its function into classes 
+class Report violate "Interface Segregation Principle" includes a set of unrelated functions such as printing, saving, deleting, and sending so we separate 
+its function and inherite from abstract class Report 
+class PayrollSystem violate "Single Responsibility Principle" so separate its functions 
+class logger also violate so we also separate its function into classes inherite from abstract class logger
